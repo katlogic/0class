@@ -1,8 +1,7 @@
 0class is a no-frills, down to earth class implementation,
 aiming for speed, no handholding.
 
-It implements class API of 30log and Class-Commons, but a lot of compatibility
-is sacrificied for the sake of speed:
+It implements class API of https://github.com/Yonaba/30log and https://github.com/bartbes/Class-Commons, but a lot of compatibility is sacrificed for the sake of speed:
 
 * mixin and fields copies are shallow; use deep copying mt proxy if you really want that
 * mixins are thrown in with all fields; not just functions
