@@ -1,13 +1,13 @@
 package = "0class"
 version = "scm-1"
 source = {
-  url = "git://github.com/katsys/0class.git";
+  url = "git://github.com/katlogic/0class.git";
   branch = "master";
 }
 description = {
 	summary = "Performance-oriented class implementation";
 	detailed = "Minimal implementation of 30log and Class-Commons API, with some compatibility sacrificied for the sake of speed.";
-	homepage = "http://github.com/katsys/0class";
+	homepage = "http://github.com/katlogic/0class";
 	license = "MIT";
 }
 
