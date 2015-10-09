@@ -24,7 +24,7 @@ return function(fields)
         new = function(self, ...)
             local inst = setmetatable({}, self)
             local init = self.__init
-            return init and self.__init(inst, ...) or inst
+            return init and init(inst, ...) or inst
         end
     }
     class.__index = class
